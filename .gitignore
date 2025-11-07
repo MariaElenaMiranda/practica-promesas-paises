@@ -1,0 +1,5 @@
+# Carpetas de configuración de editores de código:
+.vscode/
+
+# Archivos generados por el sistema operativo:
+.DS_Store
