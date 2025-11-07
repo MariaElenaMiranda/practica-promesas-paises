@@ -5,7 +5,7 @@ const inputId = document.getElementById('id-input-pais');
 const btnSeeCountry = document.getElementById('boton-ver-pais');
 const containerResponse = document.getElementById('contenedor-resultados');
 
-//Función asíncrona que consume la promesa con try/catch y muestra el pais mediante el id
+//Función que consume la promesa con .then() y .catch() y muestra el país mediante el id
 function mostrarPaisThen(id) {
   console.log('----------------------------------------------');
   console.log('Llamando a función mostrarPaisThen();');
@@ -32,7 +32,7 @@ function mostrarPaisThen(id) {
   })
 }
 
-//Botón "Ver País, que obtiene el ID y llama a la función asincrona"
+//Botón "Ver País, que obtiene el ID y llama a la función mostrarPaisThen"
 btnSeeCountry.addEventListener('click', () => {
   console.log('----------------------------------------------');
   console.log('Click en el botón "Ver País"(addEventListener)');
